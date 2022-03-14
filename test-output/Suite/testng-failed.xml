@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="URL" value="https://www.irctc.co.in/"/>
+  <listeners>
+    <listener class-name="listeners.Tranformer"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="URL" value="https://www.irctc.co.in/"/>
+    <classes>
+      <class name="IrctcTicketBooking.irctctTicketBookingTest">
+        <methods>
+          <include name="BookTicket" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- IrctcTicketBooking.irctctTicketBookingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

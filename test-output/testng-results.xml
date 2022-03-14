@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12737" started-at="2022-03-14T13:48:22Z" finished-at="2022-03-14T13:48:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12737" started-at="2022-03-14T13:48:22Z" finished-at="2022-03-14T13:48:34Z">
+      <class name="IrctcTicketBooking.Tests">
+        <test-method status="PASS" signature="grid()[pri:0, instance:IrctcTicketBooking.Tests@1ed4004b]" name="grid" duration-ms="12720" started-at="2022-03-14T19:18:22Z" finished-at="2022-03-14T19:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- IrctcTicketBooking.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
